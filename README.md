@@ -1,9 +1,9 @@
 # HBDScript
-### Descripción
-Este script permite enviar un mensaje de cumpleaños a una lista de usuarios de una base de datos.
+### Description
+This script allow send a birthday mail to an user list from a database.
 
-### Base de datos
-Existe una base de datos en sqlite3 `dates.bd` con dos tablas.
+### Database
+Exists a sqlite3 database `dates.bd` with two tables.
 
-- DATA: Contiene la información de las personas (Nombre, Apellido, Email, Fecha de Nacimiento, Género) `CREATE TABLE DATA(firstname TEXT, lastname TEXT,  mail TEXT, birthday TEXT, gender TEXT);` 
-- IMGS: Contiene la información de las imágenes (Género, URL) `CREATE TABLE IMGS(gender TEXT, url TEXT);`
+- DATA: Contents info about people (Name, Last name, Mail, Birthday, Gender) `CREATE TABLE DATA(firstname TEXT, lastname TEXT,  mail TEXT, birthday TEXT, gender TEXT);` 
+- IMGS: Contents info about pictures (Gender, URL) `CREATE TABLE IMGS(gender TEXT, url TEXT);`
